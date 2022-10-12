@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+#chameAviso{
+/*class da div que contem botaoMostrar e parágrafo**/
+    background-color: rgb(254, 254, 5);
+    width: 120px;
+    padding: 8px 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    position: fixed;
+    left: -140px; /*precisa ser maior que o valor da largura*/
+    top: 8px;
+    transition:left 0.5ms;
+}
+#chameAviso p{
+/*estilos aplicados ao parágrafo que está a div*/
+    margin: 0;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+#chameAviso button{
+/*estilo aplicado ao x do botao amarelo*/
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0px;
+    font-size: 25px;
+}
+
+#chameAviso button:hover{
+/*estilo aplicado ao x do botao amarelo*/
+    cursor: pointer;
+}
+
+.botaoVermelho{
+/*estilo aplicado ao botaoMostrar*/
+    height: 40px;
+    width: 120px;
+    border: none;
+    background-color: brown;
+    color:aliceblue;
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.mostrar{
+/*localizacao final do botao amarelo*/
+    left: 8px !important;
+}

@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    /*meu body (header + main) deve ocupar toda tela*/
+}
+header h1{
+    text-align: center;
+}
+ body main{
+    padding: 50px;
+}
+main div{
+    padding: 50px;
+}
+button{
+    
+    padding: 20px 20px; /*vertical e horizontal*/
+    
+    background-color: rgb(113, 68, 155);
+    color: aliceblue;
+    font-weight: bold;
+    border-radius: 10px;/*arredeondamento do botao*/
+    border: none; /*botao sem borda*/
+    cursor: pointer; /*para mudar o cursor de seta para mão*/
+}
+button:hover{
+    background-color: rgb(40, 138, 45);
+    /*hover do primeiro botão*/
+}
+
+.second-button{
+   background-color: crimson; 
+}
+.second-button:hover{
+    background-color: rgb(37, 30, 30) ; 
+    /*mudando o hover do segundo botão se não mudar vai adiquirir as mesmas características do outro*/
+}
+table{
+    border-collapse: collapse;
+}
+
+table th, td{
+    padding: 40px;
+    border: solid 5px;
+    border-color: blue;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+
+form div{
+    padding: 20px; /*tamanho do laranja*/
+    background-color: rgb(248, 147, 15);
+    width: 400px;
+    
+}
+::placeholder{
+    color: blue;
+}
+form div label{
+    color: rgb(250, 0, 117);
+}
+form div input{
+    width: 100%;
+    border: none;
+    padding: 10px; /*no tamanho do campo de texto*/
+    margin: 2px; /*que fica dentro do input separando ele do label*/
+    text-align: center; /*o unico texto dentro do input é o placeholder*/
+    background-color: aqua;
+}
+form button{
+    width: 100%;
+    background-color: rgb(63, 14, 240);
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+}

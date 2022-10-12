@@ -1,0 +1,47 @@
+html {
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(242, 224, 224);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.header {
+    background-image: url(images/cidade-recife.jpg); 
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    display: flex; /*forma de exibir elementos na tela*/
+    align-items: center; /*alinhamento em Y*/
+    justify-content: center; /*alinhamento em x*/
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+}
+.links{
+    text-align: center;
+}
+
+main {
+    padding: 21px;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+}
+
+.content {
+    display: flex; /*forma de exibir elementos na tela*/
+    align-items: center; /*alinhamento em Y*/
+    justify-content: center; /*alinhamento em x*/
+    text-align: justify;
+    gap: 50px;
+}
+.content img {
+    width: 500px;
+}

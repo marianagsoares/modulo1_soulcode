@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <form>
+            <div>
+                <label for="campoNome">Nome Completo: </label>
+                <input id="campoNome" type="text" name="campoName" placeholder=" digite seu nome" required>
+            </div>
+
+            <div>
+                <label for="campoCPF">CPF: </label>
+                <input id="campoCPF" name="campoCPF" type="text" placeholder="digite seu CPF" required>
+            </div>
+
+            <div>
+                <label for="campoEmail">Email: </label>
+                <input id="campoEmail" name="campoEmail" type="email" placeholder="usuario@gmail.com" required>
+            </div>
+
+            <div>
+                <label for="campoSenha">Senha: </label>
+                <input type="password" name="campoSenha" id="campoSenha" placeholder="digite sua senha" required>
+            </div>
+            <div>
+                <label for="campoProfissao">Profissão: </label>
+                <select name="campoProfissao" id="campoProfissao" required>
+                    <option selected disabled value="">selecione uma opção</option>
+                    <option value="professor">professor</option>
+                    <option value="dentista">dentista</option>
+                    <option value="engenheiro">engenheiro</option>
+                    <option value="nenhuma">nenhuma das anteriores</option>
+                </select>
+            </div>
+            <div>
+                <label for="generoUsuario">Selecione o gênero</label>
+                <br>
+                <label for="feminino">feminino</label>
+                <input id="feminino" name="campoGenero" type="radio" value="feminino">
+
+                <label for="masculino">masculino</label>
+                <input id="masculino" name="campoGenero" type="radio" value="masculino">
+            </div>
+            <div>
+                <label for="campoResumo">Escreva aqui sua dúvida: </label><br>
+                <textarea id="campoResumo" name="campoResumo" minlength="30" maxlength="50" cols="20" rows="5" placeholder="Descreva sua dúvida"></textarea>
+            </div>
+            <div>
+                <input id="termosServico" type="checkbox" name="concordaTermos">
+                <label for="termosServico">Concordo com os termos de serviço</label>
+            </div>
+            <button type="submit">Enviar</button>
+            <button type="button" onclick="alert('Tem certeza que deseja apagar os campos?')">Limpar Campos</button>
+        </form>
+    </main>
+</body>
+
+</html>
+                <!--rows reduz a area de texto em linhas, ou seja, encurta-->
+                <!--cols reduz a area de texto em colunas, ou seja. afina-->
+                <!--minlength numero minimo de caracteres-->
+                <!--maxlength numero maximo de caracteres-->
+                <!--butao dentro do forms indica que as informacoes do forms serao coletadas -->
+                <!--select porque eu nao espero um input porque jão são respsotas pré-definidas-->
+                <!--campo diabilatado para usuario nao selecionar-->
+                <!--valor vazio -->
+                <!--sempre que label obrigatório input-->
+                <!--id conecta o input ao label
+                <!name conecta o input ao banco de dados-->
+                <!--placeholder é uma dica ao usuário-->
+                <!--required indica que o campo é obrigatório-->
+                  <!--label faz referência ao campoNome no input-->
+                <!--sempre que label obrigatório input-->
+                <!--placeholder é uma dica ao usuário-->
+                <!--required indica que o campo é obrigatório-->
+                <!--label faz referência ao campoNome no input-->
+                <!--caso haja na tela mais de um botão, mas apenas um seja pra submeter-->

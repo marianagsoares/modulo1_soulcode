@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    /*tudo que estiver dentro dessa tag será considerado como javascript*/
+    console.log("Olá mundo")
+
+    /*string  textos*/
+    /*number numeros*/
+    /*boolean verdadeiro/false*/
+
+    console.log("Hello World")
+    console.log(5) 
+    console.log("5") 
+    /*dentro de aspas a linguagem entende que e um texto*/
+    console.log(85.2)
+    console.log (true)
+    console.log(false)
+
+    
+    let mensagem = "minha variavel chamada mensagem"
+    console.log(mensagem)
+    /*variaveis são locais na memória onde sao armazenadas informações*/
+
+    mensagem = "Alterando valor da variavel mensagem"
+    console.log(mensagem)
+     //sobrescrevi o valor da variavel mensagem, mas nao preciso chamar novamente o let
+
+    const pi = 3.14 
+    console.log (pi)
+    /*Nao e permitido atribuir outro valor para uma variavel do tipo constante*/
+
+    var idade = 30
+    console.log ("idade", idade)
+
+    var idade = 18
+    console.log("idade", idade)
+    /*var permite um valor sobrescrever o outro*/
+
+    const soma = 5 + 10
+    console.log(soma)
+    //o valor de soma será salvo na variavel soma
+    console.log(5 + 20)
+    //o valor que esta dentro de console.log nao será salvo em uma variavel
+    const soma2 =  soma + 5
+    console.log (soma2)
+    /*soma 15 da variavel soma + 5  e escreveu o resultado da soma2*/
+    console.log ("5" + 5)
+    //isso e considerado uma concatenação// sera impresso 55 na tela
+
+    let potenciacao = Math.pow (3, 3)
+    console.log (potenciacao)
+    //potenciacao//
+    
+    let potencia = 3 ** 3
+    console.log (potencia)
+</script>
+</body>
+</html>
